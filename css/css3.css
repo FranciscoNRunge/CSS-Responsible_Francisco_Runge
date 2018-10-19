@@ -1,5 +1,8 @@
 body{
 background: black;
+display: flex;
+flex-direction: column;
+margin: 0px;
 }
 
 /*header*/
@@ -10,12 +13,9 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-header{
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+
+  /*position: fixed;
+  top: 0;*/
 }
 
 #head h1{
@@ -34,12 +34,23 @@ header{
 /*-----*/
 /*imagen central*/
 #img_central{
-  background:#82c3a6:
+  background:#82c3a6;
   display:flex;
   justify-content: center;
-  align-content: center;
+  /*align-content: center;*/
 }
 
 #img_central>img{
-  width: 60%
+  align-items: center;
+  padding-top:5vh;
+  padding-left: 30vw;
+  padding-right: 30vw;
+  padding-bottom: 5vh;
+}
+
+figure{
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
