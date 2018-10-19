@@ -1,0 +1,45 @@
+body{
+background: black;
+}
+
+/*header*/
+header{
+  background:  #5b7989;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#head h1{
+  color:white;
+  text-shadow: 2px 2px 1px #02010a;
+  padding-left: 1vw;
+}
+
+#head nav a{
+  color: white;
+  font-size: 20px;
+  font-family: cursive;
+  align-content: center;
+  padding-right: 1vw;
+}
+/*-----*/
+/*imagen central*/
+#img_central{
+  background:#82c3a6:
+  display:flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#img_central>img{
+  width: 60%
+}
