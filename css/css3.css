@@ -13,11 +13,10 @@ header{
   border-radius: 10px 10px 0px 0px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
-  flex-grow: 1;
+  /*flex-grow: 1;*/
   width: 100%;
-  /*position: fixed;
-  top: 0;*/
 }
 
 #head h1{
@@ -51,10 +50,31 @@ figure{
 
 #img_central>img{
   width:90% ;
-  height: 80%;
+  height: auto;
   padding-top:5vh;
-  padding-left: 30vw;
-  padding-right: 30vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
   padding-bottom: 5vh;
 }
 
+#gal_img{
+  background: #d5c75f;
+  border: solid black;
+ display: flex;
+ justify-content: space-between;
+ /*flex-wrap: wrap;*/
+ align-items: center;
+}
+
+#gal_img>img{
+  padding-top:1vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-bottom: 1vh;
+}
+
+@media (max-width: 600px) {
+  #gal_img{
+    flex-wrap: wrap;
+  }
+}
