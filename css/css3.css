@@ -67,25 +67,15 @@ figure{
   align-items: center;
 }
 
-#gal_img>img{
-  padding-top:1vh;
-  padding-left: 5vw;
-  padding-right: 5vw;
-  padding-bottom: 1vh;
-  width: 90%;
-  align-items: center;
-}
-#gal_img1{
-border: solid 1px black;
-}
 
-#gal_img1:hover{
+figure>#gal_img1:hover{
   transform: rotate(10deg);
   transition-duration: 2s;
+  box-shadow: 2px 2px 1px #82c3a6;
 }
 
-#gal_img2:hover{
-  transform: translateX(20px);
+figure>#gal_img2:hover{
+  transform: translate(20px,-5px);
   transition-duration: 1s;
 }
 
