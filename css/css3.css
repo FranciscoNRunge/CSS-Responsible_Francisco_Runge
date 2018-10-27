@@ -29,6 +29,7 @@ figure{
   color:white;
   text-shadow: 2px 2px 1px #02010a;
   padding-left: 1vw;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 #head>nav{
@@ -41,6 +42,7 @@ figure{
   font-family: cursive;
   align-content: center;
   padding-right: 1vw;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 /*-----*/
 /*imagen central*/

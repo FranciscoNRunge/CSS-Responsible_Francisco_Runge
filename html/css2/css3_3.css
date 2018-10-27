@@ -1,0 +1,111 @@
+    body{
+        background: black;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        flex-basis: 100%
+    }
+    
+    /*header*/
+    header{
+      background:  #5b7989;
+      border-radius: 10px 10px 0px 0px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+      flex-basis: initial;
+    }
+    
+    figure{
+      margin-block-start: 0;
+      margin-block-end: 0;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      flex-basis: initial;
+    }
+    
+
+    #head h1{
+      color:white;
+      text-shadow: 2px 2px 1px #02010a;
+      padding-left: 1vw;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    #head>nav{
+      display: inline-block;
+    }
+    
+    #head nav a{
+      color: white;
+      font-size: 20px;
+      font-family: cursive;
+      align-content: center;
+      padding-right: 1vw;
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    /*Imagenes*/
+  
+    #gal_img{
+      background: #d5c75f;
+      border: solid black;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .img_g{
+      margin: 3%;
+      max-height: 400px;
+      max-width: 600px;
+    }
+    
+   
+        /*footer*/
+
+    footer{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-basis: 100%;
+      border-radius: 0px 0px 10px 10px;
+      background: #C6d5c5;
+    }
+    
+    footer div{
+      margin: 1%;
+    }
+    
+    .ft_e{
+      display: initial;
+      flex-direction: column;
+      /*margin: 5px;*/
+    }
+    
+    .ft_e, h2, h3{
+      font-family: 'Courier New', Courier, monospace; 
+      /*line-height: 1px;*/
+    }
+    
+    .ft_e img{
+      max-width: 24px;
+      max-height: 24px;
+    }
+    
+    .ft_e a{
+      text-decoration-line: none;
+      color: #02010a;
+    }
+
+    /*Medias*/
+@media (max-width: 600px) {
+    #gal_img{
+      flex-wrap: wrap;
+    }
+  
+    footer{
+      flex-direction: column;
+    }
+  }
