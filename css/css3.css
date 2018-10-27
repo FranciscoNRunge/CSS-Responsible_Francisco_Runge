@@ -17,6 +17,14 @@ header{
   flex-basis: initial;
 }
 
+figure{
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  flex-basis: initial;
+}
+
 #head h1{
   color:white;
   text-shadow: 2px 2px 1px #02010a;
@@ -42,13 +50,7 @@ header{
   justify-content: center;
 }
 
-figure{
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  flex-basis: initial;
-}
+
 
 #img_central>img{
   width:90% ;
@@ -67,16 +69,24 @@ figure{
   align-items: center;
 }
 
+.img_g{
+  margin: auto;
+  margin-bottom: 3vh;
+  margin-top: 3vh;
+  max-height: 400px;
+  max-width: 600px;
+}
 
 figure>#gal_img1:hover{
   transform: rotate(10deg);
   transition-duration: 2s;
-  box-shadow: 2px 2px 1px #82c3a6;
+  box-shadow: 2px 2px 0px #82c3a6;
 }
 
 figure>#gal_img2:hover{
   transform: translate(20px,-5px);
   transition-duration: 1s;
+  box-shadow: 2px 2px 0px #82c3a6;
 }
 
 @media (max-width: 600px) {
