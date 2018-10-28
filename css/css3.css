@@ -1,10 +1,21 @@
-body{
-background: black;
-display: flex;
-flex-direction: column;
-margin: 0px;
-flex-basis: 100%
+@font-face{
+  font-family: DancingScript;
+  src: url(https://fonts.googleapis.com/css?family=Dancing+Script);
 }
+
+
+body{
+  background: black;  
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  flex-basis: 100%
+}
+
+#contenido{
+  max-width: 900px; 
+}
+
 
 /*header*/
 header{
@@ -25,11 +36,12 @@ figure{
   flex-basis: initial;
 }
 
+
 #head h1{
   color:white;
   text-shadow: 2px 2px 1px #02010a;
   padding-left: 1vw;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Dancing Script', cursive;
 }
 
 #head>nav{
@@ -42,7 +54,7 @@ figure{
   font-family: cursive;
   align-content: center;
   padding-right: 1vw;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Dancing Script', cursive;
 }
 /*-----*/
 /*imagen central*/
@@ -96,6 +108,7 @@ footer{
   background: #C6d5c5;
 }
 
+
 footer div{
   margin: 1%;
 }
@@ -103,12 +116,10 @@ footer div{
 .ft_e{
   display: initial;
   flex-direction: column;
-  /*margin: 5px;*/
 }
 
 .ft_e, h2, h3{
-  font-family: 'Courier New', Courier, monospace; 
-  /*line-height: 1px;*/
+  font-family: 'Dancing Script', cursive;
 }
 
 .ft_e img{
@@ -122,7 +133,7 @@ footer div{
 }
 
 /*Medias*/
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   #gal_img{
     flex-wrap: wrap;
   }
@@ -130,4 +141,8 @@ footer div{
   footer{
     flex-direction: column;
   }
+}
+/*general*/
+img{
+  box-shadow: 2px 2px 1px  #02010a;
 }
