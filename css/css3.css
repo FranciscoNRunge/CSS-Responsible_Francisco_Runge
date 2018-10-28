@@ -30,6 +30,7 @@ figure{
 
 #contenido{
   width: 900px;
+  animation: slidein 2s;
 }
 
 #head h1{
@@ -133,21 +134,43 @@ footer div{
   #contenido{
     width: 100%;
   }
-  
-  #gal_img{
-    flex-wrap: wrap;
-  }
 
   header{
     flex-direction: column;
     justify-content: center;
   }
 
+  header>h1{
+    text-align: center
+  }
+
+  #gal_img{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
   footer{
     flex-direction: column;
+  }
+
+  .ft_e{
+    margin-left: 10%;
   }
 }
 /*general*/
 img{
   box-shadow: 2px 2px 1px  #02010a;
+}
+
+@keyframes  slidein{
+  0%{
+    margin-top: 150%;
+  }
+  60%{
+    margin-top: -5%;
+  }
+  100%{
+    margin-top: 0%;
+
+  }
 }
