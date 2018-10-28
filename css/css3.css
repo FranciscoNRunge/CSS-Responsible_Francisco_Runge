@@ -5,15 +5,10 @@
 
 
 body{
-  background: black;  
-  display: flex;
-  flex-direction: column;
-  margin: 0px;
-  flex-basis: 100%
-}
-
-#contenido{
-  max-width: 900px; 
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    margin: 0px;
 }
 
 
@@ -23,9 +18,7 @@ header{
   border-radius: 10px 10px 0px 0px;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   align-items: center;
-  flex-basis: initial;
 }
 
 figure{
@@ -33,9 +26,11 @@ figure{
   margin-block-end: 0;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  flex-basis: initial;
 }
 
+#contenido{
+  width: 900px;
+}
 
 #head h1{
   color:white;
@@ -125,6 +120,7 @@ footer div{
 .ft_e img{
   max-width: 24px;
   max-height: 24px;
+  box-shadow: none;
 }
 
 .ft_e a{
@@ -134,8 +130,17 @@ footer div{
 
 /*Medias*/
 @media (max-width: 900px) {
+  #contenido{
+    width: 100%;
+  }
+  
   #gal_img{
     flex-wrap: wrap;
+  }
+
+  header{
+    flex-direction: column;
+    justify-content: center;
   }
 
   footer{
