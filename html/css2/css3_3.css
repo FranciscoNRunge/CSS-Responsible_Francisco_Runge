@@ -73,8 +73,11 @@ figure{
   background: #d5c75f;
   border: solid black;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+}
+
+#gal_img > div{
+  display: flex;
 }
 
 .img_g{
@@ -83,17 +86,6 @@ figure{
   max-width: 600px;
 }
 
-figure>#gal_img1:hover{
-  transform: rotate(10deg);
-  transition-duration: 2s;
-  box-shadow: 2px 2px 0px #82c3a6;
-}
-
-figure>#gal_img2:hover{
-  transform: translate(20px,-5px);
-  transition-duration: 1s;
-  box-shadow: 2px 2px 0px #82c3a6;
-}
 
 footer{
   display: flex;
