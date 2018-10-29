@@ -30,6 +30,7 @@ figure{
 
 #contenido{
   width: 900px;
+  height: auto;
   animation: slidein 2s;
 }
 
